@@ -1,20 +1,20 @@
 # Customer Churn Prediction - End-to-End ML Pipeline
 
 
-## 📋 Project Overview
+## Project Overview
 
 A production-ready machine learning pipeline to predict customer churn in the telecommunications industry. This project demonstrates end-to-end ML workflow including data preprocessing, feature engineering, model training, evaluation, and deployment-ready model artifacts.
 
 **Business Problem:** Identifying customers likely to churn helps businesses take proactive retention measures, reducing revenue loss.
 
-## 🎯 Key Results
+## Key Results
 
 - **Best Model:** Logistic Regression
 - **ROC-AUC Score:** 0.8458
 - **Accuracy:** 80.41%
 - **F1-Score:** 0.5929
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** Telco Customer Churn Dataset
 - **Size:** 7,043 customers
@@ -29,7 +29,7 @@ A production-ready machine learning pipeline to predict customer churn in the te
 - **Services:** Phone, Internet, Online Security, Tech Support, etc.
 - **Charges:** Monthly charges, Total charges
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python 3.8+
 - **ML Libraries:** scikit-learn, XGBoost, imbalanced-learn
@@ -37,7 +37,7 @@ A production-ready machine learning pipeline to predict customer churn in the te
 - **Visualization:** Matplotlib, Seaborn
 - **Model Persistence:** Joblib
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -90,7 +90,7 @@ jupyter notebook notebooks/03model_training.ipynb
 python src/data_preprocessing.py
 ```
 
-## 🔍 Methodology
+## Methodology
 
 ### 1. Data Preprocessing
 
@@ -137,7 +137,7 @@ Selected **[Your best model]** based on highest ROC-AUC score, balancing precisi
 ![ROC Curves](reports/roc_curves.png)
 ![Confusion Matrix](reports/confusion_matrix.png)
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Implement hyperparameter tuning (GridSearchCV/RandomizedSearchCV)
 - [ ] Handle class imbalance with SMOTE/undersampling
@@ -146,13 +146,13 @@ Selected **[Your best model]** based on highest ROC-AUC score, balancing precisi
 - [ ] Deploy on AWS/Azure as web service
 - [ ] Create Streamlit dashboard for predictions
 
-## 📝 Lessons Learned
+## Lessons Learned
 
 1. **Feature engineering** significantly improved model performance (+8% ROC-AUC)
 2. **Class imbalance** handling crucial for churn prediction
 3. **Tree-based models** outperform linear models for this problem
 4. **Business context** matters - optimizing for recall may be more valuable than accuracy
 
-## 📄 License
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
